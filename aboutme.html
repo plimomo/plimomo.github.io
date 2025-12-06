@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url(./yeah.avif);
+        background-size: cover;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    header{
+        
+    }
+    .bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo img{
+        border-radius: 50%;
+    }
+
+    .menu a{
+        margin: 0 15px;
+        text-decoration: none;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 20px;
+        background-color: rgb(59, 59, 59);
+        border-radius: 15px;
+    }
+    .container{
+        margin: 0 10%;
+    }
+
+    #contact:hover{
+        background-color: black;
+    }
+
+    .menu-null{
+        color: white;
+        padding: 16px;
+    }
+
+    .menu-have{
+        background-color: white;
+        padding:16px;
+        border-radius: 16px;
+        color: black;
+    }
+
+    .menu-have:hover{
+        background-color: grey;
+    }
+
+    .pluem{
+        width: 411px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .box{
+        margin-bottom:  110px 0;
+    }    
+
+    .box-link{
+        margin-top: 50px;
+    }
+
+    .box-link a{
+        padding: 10px;
+        margin-left: 5px;
+        background-color: white;
+        border: black solid 1px;
+        text-decoration: none;
+        color: black;
+        border-radius: 10px;
+
+    }
+
+    .box-link a:hover{
+
+    }
+
+    .container-box{
+        margin: 0 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .imgme img{
+        width: 282px;
+    }
+
+    .info-box{
+    }
+
+    .info-container{
+        margin: 20px 70px;
+    }
+
+    .inside-info-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        border: black solid 1px;
+        border-radius: 20px;
+    }
+
+    .under-info-box{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+</style>
+<body>
+    <header>
+        <div class="container">
+            <div class="bar">
+                <div class="logo">
+                    <a href="index.html"><img src="pluem.png" alt="" style="width: 80px;"></a>
+                </div>
+                <div class="menu">
+                    <a href="aboutme.html" class="menu-null">About me</a>
+                    <a href="skill.html" class="menu-null">Skills</a>
+                    <a href="portfoilo.html" class="menu-null">Portfolio</a>
+                    <a href="https://www.facebook.com/pluem.jirapat.54" class="menu-have">CONTACT ME</a>
+                </div>
+            </div> 
+            
+
+            <div class="info-box">
+                <div class="info-container">
+                    <div class="inside-info-box">
+                        <h1  style="margin-bottom: 0px;">About Me</h1>
+                        <h3 style="margin-top: 0px; color: rgb(59, 59, 59);">My name is Jiraphat Soyjampa</h3>
+                        <p>Hi! I’m a Grade 12 student passionate about coding, technology, and building real-world solutions. I enjoy turning ideas into working projects and continuously improving my skills through hands-on learning.
+                            My interests include web/app development, AI, and computer science fundamentals. I believe coding is not just about writing programs—it’s about solving problems creatively and logically. My goal is to become a skilled software engineer and create products that make a meaningful impact.</p>
+                    </div>
+                    <div class="under-info-box">
+                        <div class="study">
+                            <img src="./images (1).png" alt="" style="width: 200px; height: auto;">
+                            <center><h3>Where am i study</h3></center>
+                        </div>
+                        <div class="script">
+                            <img src="./pngegg.png" alt="" style="width: 200px; height: auto;">
+                            <center><h3>My favourtie</h3></center>
+                        </div>
+                        <div class="wife">
+                        <img id="wife" src="/Hu-Tao-PNG-Isolated-Image.png" alt="logo" style="width: 200px; height: auto;" onmouseover="onHover();" onmouseout="offHover();" />
+                        <center><h3>My wife</h3></center>
+                        <script src="scriptt.js"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

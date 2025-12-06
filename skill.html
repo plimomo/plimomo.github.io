@@ -11,8 +11,9 @@
     body{
         margin: 0px;
         padding: 0px;
-        background-image: url(./black-ink-background.jpg);
+        background-image: url(./yeah.avif);
         background-size: cover;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
     header{
@@ -38,6 +39,9 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        padding: 20px;
+        background-color: rgb(59, 59, 59);
+        border-radius: 15px;
     }
     .container{
         margin: 0 10%;
@@ -102,6 +106,36 @@
     .imgme img{
         width: 282px;
     }
+
+    .info-box{
+    }
+
+    .skill-container{
+        margin: 20px 70px;
+    }
+
+    .inside-skill-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        border: black solid 1px;
+        border-radius: 20px;
+    }
+
+    .under-info-box{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .box1{
+        display: flex;
+    }
+
+    .box2{
+        display:flex;
+    }
 </style>
 <body>
     <header>
@@ -117,30 +151,45 @@
                     <a href="https://www.facebook.com/pluem.jirapat.54" class="menu-have">CONTACT ME</a>
                 </div>
             </div> 
-            <div>
-                <div class="bd">
-                    <div class="container-box">
-                        <div class="box">
-                            <div class="box-text">
-                                <h2>HI I'm</h2>
-                                <h1>Jiraphat Soyjampa</h3>
-                                    <p style="color: rgb(0, 0, 0);">Frontend Dev/UI Designer</p>
+            <div class="skill-box">
+                <div class="skill-container">
+                    <div class="inside-skill-box">
+                        <h1>My Skill</h1>
+                        <div class="box1">
+                            <div class="html">
+                                <img src="./html.png" alt="" style="width: 200px; height: auto;">
+                                <center><h3>HTML</h3></center>
                             </div>
-                            <div class="box-link">
-                                <a href="https://www.facebook.com/pluem.jirapat.54">facebook</a>
-                                <a href="https://www.instagram.com/kkpxn._/">instagram</a>
-                                <a href="#">email</a>
+                            <div class="CSS">
+                                <img src="css3-seeklogo.png" alt="" style="width: 135px; height: auto;">
+                                <center><h3>CSS</h3></center>
+                            </div>
+                            <div class="js">
+                                <img src="./js.png" alt="" style="width: 200px; height: 200;">
+                                <center><h3>JavaScript</h3></center>
                             </div>
                         </div>
-                        <div class="imgme">
-                            <img id="menuImg" src="/dddd.png" alt="logo" onmouseover="onHover();" onmouseout="offHover();" />
-                            <script src="script.js"></script>
-                        </div>  
+                        <div class="box2">
+                            <div class="figmd">
+                                <img src="./figma.png" alt="" style="width: 200px; height: 200;">
+                                <center><h3>FIGMA</h3></center>
+                            </div>
+                            <div class="react">
+                                <img src="./react.png" alt="" style="width: 200px; height: 200;">
+                                <center><h3>REACT</h3></center>
+                            </div>
+                            <div class="git">
+                                <img src="./git.png" alt="" style="width: 200px; height: 200;">
+                                <center><h3>GIT</h3></center>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            
         </div>
     </header>
-
+<script src="script.js"></script>
 </body>
 </html>
